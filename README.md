@@ -64,3 +64,6 @@ php artisan migrate
 composer run dev
 
 php artisan make:model Post -a
+
+php artisan migrate
+php artisan migrate:rollback
