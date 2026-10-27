@@ -62,3 +62,5 @@ docker compose up -d
 php artisan config:clear
 php artisan migrate
 composer run dev
+
+php artisan make:model Post -a
